@@ -19,9 +19,10 @@ def fourth_challenge
       ]
    }
 }
-end
 
-def bonus(fourth_challenge)
-  [:montague][:hero][:status] = "dead"
-  [:capulet][:heroine][:status] = "dead"
+epic_tragedy[:montague][:hero][:status] = "dead"
+epic_tragedy[:capulet][:heroine][:status] = "dead"
+
+puts epic_tragedy
+
 end
